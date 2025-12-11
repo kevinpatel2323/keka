@@ -1,0 +1,83 @@
+2025-11-27 12:25:02,908 - INFO - Authorization URL: https://app.keka.com/connect/authorize?client_id=987cc971-fc22-4454-99f9-16c078fa7ff6&redirect_uri=https%3A%2F%2Falchemy.keka.com&response_type=code&scope=openid+kekahr.api+hiro.api+offline_access&code_challenge=STMYn4BGIkAkV8hUYZXTOoAfwzRh0wCN4wknZAPyl10&code_challenge_method=S256
+2025-11-27 12:25:02,908 - INFO - Code Verifier (save this): AcVpAGN5BTa_KnLtA7cbKAt1MUfhrl0l8giE2Ia9DVU
+2025-11-28 11:29:47,274 - INFO - Authorization URL: https://app.keka.com/connect/authorize?client_id=987cc971-fc22-4454-99f9-16c078fa7ff6&redirect_uri=https%3A%2F%2Falchemy.keka.com&response_type=code&scope=openid+kekahr.api+hiro.api+offline_access&code_challenge=zs9rrBwWSilmD4VqLDR-cLOp23vFqArT1v27kUbGIiE&code_challenge_method=S256
+2025-11-28 11:29:47,275 - INFO - Code Verifier (save this): VR3CyNzuyct3EwoNpUISsiwd80iCyPoDyGo-HL2hv8A
+2025-11-28 11:31:27,931 - ERROR - Error exchanging code for token: 403 Client Error: Forbidden for url: https://app.keka.com/connect/token
+2025-11-28 11:31:27,932 - ERROR - Response: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
+
+2025-11-28 11:31:39,440 - INFO - Authorization URL: https://app.keka.com/connect/authorize?client_id=987cc971-fc22-4454-99f9-16c078fa7ff6&redirect_uri=https%3A%2F%2Falchemy.keka.com&response_type=code&scope=openid+kekahr.api+hiro.api+offline_access&code_challenge=pdNqI-w3XHJu70KftZnXEUQMq8FsYDXKILrcOR54xi0&code_challenge_method=S256
+2025-11-28 11:31:39,440 - INFO - Code Verifier (save this): teyTz48xnFC0_LdoRYv9uy_lTfZgsPwjln844Kkeiuc
+2025-11-28 11:34:37,620 - ERROR - Error exchanging code for token: 403 Client Error: Forbidden for url: https://app.keka.com/connect/token
+2025-11-28 11:34:37,621 - ERROR - Response: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
+
+2025-11-28 11:35:00,764 - INFO - Authorization URL: https://app.keka.com/connect/authorize?client_id=987cc971-fc22-4454-99f9-16c078fa7ff6&redirect_uri=https%3A%2F%2Falchemy.keka.com&response_type=code&scope=openid+kekahr.api+hiro.api+offline_access&code_challenge=EMuIwmkC5eAfcsc1ahM2w01geyxwfUfGB7eqcTJv-jc&code_challenge_method=S256
+2025-11-28 11:35:00,764 - INFO - Code Verifier (save this): 9QLhRYuAoJy2JGXka_AECo4Cf-fldrR6o328F1s0Abw
+2025-11-28 11:35:24,725 - ERROR - Error exchanging code for token: 403 Client Error: Forbidden for url: https://app.keka.com/connect/token
+2025-11-28 11:35:24,726 - ERROR - Response: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
+
+2025-11-28 11:38:36,024 - INFO - Generating authorization URL...
+2025-11-28 11:38:36,024 - INFO - Generating PKCE code verifier and challenge...
+2025-11-28 11:38:36,024 - INFO - PKCE pair generated successfully
+2025-11-28 11:38:36,024 - INFO - Using redirect_uri: https://alchemy.keka.com
+2025-11-28 11:38:36,024 - INFO - Using client_id: 987cc971-fc22-4454-99f9-16c078fa7ff6
+2025-11-28 11:38:36,024 - INFO - Generated authorization URL: https://app.keka.com/connect/authorize?client_id=987cc971-fc22-4454-99f9-16c078fa7ff6&redirect_uri=https%3A%2F%2Falchemy.keka.com&response_type=code&scope=openid+kekahr.api+hiro.api+offline_access&code_challenge=pkGfC3RYVkW8kVGNuFfLMycA1rAtfEx_dVHgUjEffu0&code_challenge_method=S256
+2025-11-28 11:38:36,024 - INFO - Code Verifier (save this for debugging): L_gLa74y8nM7GD3qctEusj7JT0DtaMlf-ksVOHECmEQ
+2025-11-28 11:38:36,024 - INFO - Please complete the authorization in your browser and paste the received code
+2025-11-28 11:39:57,741 - INFO - Preparing token exchange request...
+2025-11-28 11:39:57,747 - INFO - Sending token request to Keka...
+2025-11-28 11:39:57,747 - INFO - Sending POST request to token endpoint...
+2025-11-28 11:39:57,953 - INFO - Token exchange successful
+2025-11-28 11:39:57,953 - INFO - Tokens saved to file
+2025-11-28 11:39:57,953 - INFO - Access token and refresh token saved successfully
+2025-11-28 11:41:23,785 - INFO - Tokens loaded from file
+2025-11-28 11:41:24,332 - INFO - Clock OUT successful at 2025-11-28 11:41:24
+2025-11-28 12:04:45,066 - INFO - Tokens loaded from file
+2025-11-28 12:04:45,286 - INFO - Clock IN successful at 2025-11-28 12:04:45
+2025-12-08 11:58:12,812 - INFO - Tokens loaded from file
+2025-12-08 11:58:12,813 - INFO - Token expired, refreshing...
+2025-12-08 11:58:12,938 - ERROR - Error refreshing token: 403 Client Error: Forbidden for url: https://app.keka.com/connect/token
+2025-12-08 11:58:12,938 - ERROR - Response: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
+
+2025-12-08 11:58:12,938 - ERROR - Failed to refresh token. Please re-authenticate.
+2025-12-08 11:58:30,143 - INFO - Generating authorization URL...
+2025-12-08 11:58:30,144 - INFO - Generating PKCE code verifier and challenge...
+2025-12-08 11:58:30,144 - INFO - PKCE pair generated successfully
+2025-12-08 11:58:30,144 - INFO - Using redirect_uri: https://alchemy.keka.com
+2025-12-08 11:58:30,144 - INFO - Using client_id: 987cc971-fc22-4454-99f9-16c078fa7ff6
+2025-12-08 11:58:30,144 - INFO - Generated authorization URL: https://app.keka.com/connect/authorize?client_id=987cc971-fc22-4454-99f9-16c078fa7ff6&redirect_uri=https%3A%2F%2Falchemy.keka.com&response_type=code&scope=openid+kekahr.api+hiro.api+offline_access&code_challenge=qpm6DXdypHYAdHQkgRAFJD9eKQfBlZiWhnNHDVdqaKM&code_challenge_method=S256
+2025-12-08 11:58:30,144 - INFO - Code Verifier (save this for debugging): FGN44pjzyPt1t9eMd5NefJW1MjXYnjOqptsps7cpt6A
+2025-12-08 11:58:30,144 - INFO - Please complete the authorization in your browser and paste the received code
+2025-12-08 11:59:04,510 - INFO - Preparing token exchange request...
+2025-12-08 11:59:04,515 - INFO - Sending token request to Keka...
+2025-12-08 11:59:04,515 - INFO - Sending POST request to token endpoint...
+2025-12-08 11:59:04,676 - INFO - Token exchange successful
+2025-12-08 11:59:04,676 - INFO - Tokens saved to file
+2025-12-08 11:59:04,676 - INFO - Access token and refresh token saved successfully
+2025-12-08 11:59:07,597 - INFO - Tokens loaded from file
+2025-12-08 11:59:08,249 - INFO - Clock IN successful at 2025-12-08 11:59:08
+2025-12-09 11:12:53,001 - INFO - Tokens loaded from file
+2025-12-09 11:12:53,377 - INFO - Clock IN successful at 2025-12-09 11:12:53 IST
