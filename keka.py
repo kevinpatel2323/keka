@@ -17,6 +17,7 @@ try:
     import redis
 except ImportError:
     redis = None
+    print("Warning: 'redis' package not found. Install it with 'pip install redis' to use Redis storage.")
 
 # Setup logging
 logging.basicConfig(
@@ -36,14 +37,17 @@ REDIS_KEY = 'keka_tokens'
 kv = None
 redis_url = os.environ.get("KV_URL") or os.environ.get("REDIS_URL")
 if redis_url:
-    try:
-        kv = redis.from_url(redis_url)
-        # Verify connection
-        kv.ping()
-        logging.info("Connected to Redis/Vercel KV")
-    except Exception as e:
-        logging.error(f"Failed to connect to Redis: {e}")
-        kv = None
+    if redis is None:
+        logging.error("REDIS_URL/KV_URL detected, but 'redis' package is not installed. Please run 'pip install redis'.")
+    else:
+        try:
+            kv = redis.from_url(redis_url)
+            # Verify connection
+            kv.ping()
+            logging.info("Connected to Redis/Vercel KV")
+        except Exception as e:
+            logging.error(f"Failed to connect to Redis: {e}")
+            kv = None
 
 class KekaAttendance:
     def __init__(self):
