@@ -34,9 +34,10 @@ REDIS_KEY = 'keka_tokens'
 
 # Redis connection
 kv = None
-if os.environ.get("KV_URL"):
+redis_url = os.environ.get("KV_URL") or os.environ.get("REDIS_URL")
+if redis_url:
     try:
-        kv = redis.from_url(os.environ.get("KV_URL"))
+        kv = redis.from_url(redis_url)
         # Verify connection
         kv.ping()
         logging.info("Connected to Redis/Vercel KV")
